@@ -1,0 +1,11 @@
+{
+  "mode": "recordings",
+  "sources": ["toma-1.mp4", "toma-2.mp4"],
+  "keep": [
+    {"source": 0, "start": 0.5, "end": 8.0},
+    {"source": 1, "start": 2.0, "end": 10.0}
+  ],
+  "remove_silence": {"enabled": true, "noise_db": -35, "min_duration": 0.5, "padding": 0.12},
+  "fit": "pad",
+  "output": "salida/reel.mp4"
+}

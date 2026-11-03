@@ -1,0 +1,10 @@
+{
+  "mode": "clips",
+  "source": "video-largo.mp4",
+  "clips": [
+    {"name": "idea-1", "start": 12.0, "end": 38.0},
+    {"name": "idea-2", "start": 92.0, "end": 121.0}
+  ],
+  "fit": "pad",
+  "output_dir": "salida/clips"
+}

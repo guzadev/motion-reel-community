@@ -1,0 +1,11 @@
+{
+  "mode": "hooks",
+  "body": {"source": "cuerpo.mp4", "start": 0.0, "end": 24.0},
+  "hooks": [
+    {"name": "pregunta", "source": "hook-pregunta.mp4", "start": 0.0, "end": 3.0},
+    {"name": "dato", "source": "hook-dato.mp4", "start": 0.0, "end": 3.5},
+    {"name": "promesa", "source": "hook-promesa.mp4", "start": 0.0, "end": 4.0}
+  ],
+  "fit": "pad",
+  "output_dir": "salida/versiones"
+}
